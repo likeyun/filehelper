@@ -1,0 +1,9 @@
+server/config.php
+server/storage/
+client/node_modules/
+client/dist/
+client/src-tauri/target/
+deploy-package/assets/
+deploy-package/api/storage/
+*.zip
+*.env

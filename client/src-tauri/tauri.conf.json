@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "FileHelper",
+  "version": "0.1.0",
+  "identifier": "cn.uclouddev.filehelper",
+  "build": { "frontendDist": "../dist", "devUrl": "http://127.0.0.1:5173" },
+  "app": { "windows": [{ "title": "FileHelper", "width": 1080, "height": 760, "minWidth": 680, "minHeight": 520, "resizable": true }], "security": { "csp": "default-src 'self' https: http: data: blob:; connect-src 'self' https: http:; img-src 'self' https: http: data: blob:" } },
+  "bundle": { "active": true, "targets": ["nsis", "msi"], "shortDescription": "轻量跨设备图文互传工具", "longDescription": "FileHelper - 保留历史记录的私人文件传输空间", "windows": { "webviewInstallMode": { "type": "embedBootstrapper" } } }
+}
